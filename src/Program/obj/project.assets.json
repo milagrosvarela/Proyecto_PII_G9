@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mili\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mili\\Documents\\PII\\Proyecto PII\\src\\Program\\Program.csproj",
+      "projectUniqueName": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\mili\\Documents\\PII\\Proyecto PII\\src\\Program\\Program.csproj",
+      "projectPath": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\mili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mili\\Documents\\PII\\Proyecto PII\\src\\Program\\obj\\",
+      "outputPath": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mili\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Library\\Library.csproj": {
+              "projectPath": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Library\\Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

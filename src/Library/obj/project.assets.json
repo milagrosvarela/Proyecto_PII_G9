@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mili\\Documents\\PII\\Proyecto PII\\src\\Library\\Library.csproj",
+      "projectUniqueName": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\mili\\Documents\\PII\\Proyecto PII\\src\\Library\\Library.csproj",
+      "projectPath": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\mili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mili\\Documents\\PII\\Proyecto PII\\src\\Library\\obj\\",
+      "outputPath": "c:\\Users\\mili\\Documents\\PII\\Proyecto_PII_G9\\src\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mili\\AppData\\Roaming\\NuGet\\NuGet.Config"
