@@ -13,15 +13,19 @@ namespace Chatbot;
 
 public class ChangeData
 {
-<<<<<<< HEAD
-    public static string ChangePaswwd{get;set;}
-    public static string ChangeEmail{get;set;}
-    public static int ChangePhoneNumber{get;set;}
-=======
-    public string ChangeName{get;set;}
-    public string ChangePaswwd{get;set;}
-    public string ChangeEmail{get;set;}
-    public int ChangePhoneNumber{get;set;}
->>>>>>> b42d16f7c53ab01abc456bc317836a86c71ffc4e
+
+    public static string ChangePaswwd()
+    {
+        return "";
+    }
+    public static string ChangeEmail()
+    {
+        return "";
+    }
+    public static string ChangePhoneNumber()
+    {
+        return "";
+    }
+
 
 }
