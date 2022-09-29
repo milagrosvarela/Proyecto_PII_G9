@@ -13,6 +13,7 @@ namespace Chatbot;
 
 public class ChangeData
 {
+    public string ChangeName{get;set;}
     public string ChangePaswwd{get;set;}
     public string ChangeEmail{get;set;}
     public int ChangePhoneNumber{get;set;}
