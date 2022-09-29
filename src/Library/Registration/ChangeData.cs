@@ -6,14 +6,13 @@ namespace Chatbot;
 // ---------------------------
 // 
 // ---------------------------
-// +    ChangePassword(User.Password)
-// +    ChangeEmail(User.Email)
-// +    ChangePhoneNumber(User.Number)
+// + ChangePassword(User.Password)
+// + ChangeEmail(User.Email)
+// + ChangePhoneNumber(User.Number)
 // ---------------------------
 
 public class ChangeData
 {
-
     public static string ChangePaswwd()
     {
         return "";
@@ -26,6 +25,5 @@ public class ChangeData
     {
         return "";
     }
-
 
 }
