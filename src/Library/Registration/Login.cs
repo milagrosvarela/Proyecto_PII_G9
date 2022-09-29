@@ -12,5 +12,11 @@ namespace Chatbot;
 
 public class Login
 {
+    string Email {get;set;}
+    string Pass {get;set;}
 
+    public void ValidationLogin()
+    {
+        
+    }
 }
