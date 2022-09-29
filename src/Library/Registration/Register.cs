@@ -22,5 +22,4 @@ public class Register
         Validation.ValidateEmail();
         Validation.ValidatePhoneNumber();
     }
-
 }

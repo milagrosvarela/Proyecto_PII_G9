@@ -17,11 +17,22 @@ public class Employer : User
     public string SearchService{get;set;}
     public string ViewProfile(User user){return "";}
     public int RateWorker(User user){return Rate;}
-
     public override void CancelService(Service service){
         
     }
-    public override void RateWorker(Rating rating){
+    public void RateWorker(Rating rating){
+        
+    }
+    public override void DeleteUser(User user)
+    {
+        
+    }
+    public override void ChangeUserData()
+    {
+        
+    }
+    public override void Login()
+    {
         
     }
 }

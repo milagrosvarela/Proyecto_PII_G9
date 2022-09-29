@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Library
-<<<<<<< HEAD
 build_property.ProjectDir = c:\visualcode\Folders\myproyects\Proyecto_PII_G9\src\Library\
-=======
-build_property.ProjectDir = d:\RAMDON\0 Estudios\0 UCU clases\1 año Segundo Semestre\Progrmación II\Proyecto\ProyectoCodigo\Proyecto_PII_G9\src\Library\
->>>>>>> b4fc29deb39438e4243e9d9d7be8f6a21a07dfa5
