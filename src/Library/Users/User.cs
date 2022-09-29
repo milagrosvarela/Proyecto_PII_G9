@@ -17,6 +17,10 @@ namespace Chatbot;
 // + CancelService()
 // --------------------------
 
+// La clase abstracta User es base de Worker y Employer. Tiene variables y métodos generales a todos los usuarios,
+// como ID, datos personales y de contacto. Además almacena la reputación del usuario y les permite ingresar a su
+// cuenta, cancelar un servicio, cambiar su información o borrar su cuenta. 
+
 public abstract class User
 {
     int ID{get;}
@@ -26,6 +30,13 @@ public abstract class User
     string Password{get;set;}
     Rating Rating{get;set;}
 
+    public User(string Name, int PhoneNumber, string Email, string Password)
+    {
+        this.Name = Name.Trim();
+        this.PhoneNumber = PhoneNumber;
+        this.Email = Email;
+        this.Password = Password;
+    }
 
     public abstract void Login();
     public abstract void ChangeUserData();

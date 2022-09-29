@@ -11,16 +11,30 @@ namespace Chatbot;
 // + RateWorker(user)
 // ------------------------
 
+// La clase Employer permite que los empleadores puedan buscar un servicio, contactarse con el trabajador y 
+// calificarlo en cuanto a su desempeño. 
+
 public class Employer : User
 {
     public int Rate{get;set;}
-    public string SearchService{get;set;}
-    public string ViewProfile(User user){return "";}
-    public int RateWorker(User user){return Rate;}
-    public override void CancelService(Service service){
+    public void SearchService()
+    {
+
+    }
+    public void ViewProfile(User user)
+    {
         
     }
-    public void RateWorker(Rating rating){
+    public void RateWorker(User user)
+    {
+        
+    }
+    public override void CancelService(Service service)
+    {
+        
+    }
+    public void RateWorker(Rating rating)
+    {
         
     }
     public override void DeleteUser(User user)

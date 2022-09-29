@@ -11,6 +11,9 @@ namespace Chatbot;
 // + RateEmployer(user)
 // --------------------------
 
+// La clase Worker permite que los trabajadores ofrezcan sus servicios, puedan ver la reputación de sus 
+// empleadores y calificarlos en cuanto a la experiencia de trabajo. 
+
 public class Worker : User
 {
     int ID { get; }
@@ -18,7 +21,7 @@ public class Worker : User
     string PhoneNumber { get; set; }
     string Email { get; set; }
     string Password { get; set; }
-    Rating Rating { get; set; }
+    string Rating { get; set; }
 
     public Worker(string name, string phoneNumber, string email, string passsword)
     {
@@ -27,7 +30,7 @@ public class Worker : User
         this.PhoneNumber = phoneNumber;
         this.Email = email;
         this.Password = passsword;
-        this.Rating = null;
+        this.Rating = 0;
     }
 
     public override void Login()
@@ -43,19 +46,6 @@ public class Worker : User
 
     }
     public override void CancelService(Service service)
-    {
-
-    }
-    
-    public void NewService()
-    {
-
-    }
-    public void ViewProfile(User user)
-    {
-
-    }
-    public void RateEmployer(User user)
     {
 
     }

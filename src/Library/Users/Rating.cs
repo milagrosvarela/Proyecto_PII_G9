@@ -11,6 +11,8 @@ namespace Chatbot;
 // + AddRating(rating)
 // ---------------------------
 
+// La clase Rating gestiona la calificación tanto de los trabajadores como de los empleadores, determinando el 
+// rango de calificaciones que se puede asignar y el puntaje promedio de cada uno para así obtener su reputación.
 public class Rating
 {
     List<Service> Ratings {get;set;}

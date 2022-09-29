@@ -15,7 +15,14 @@ public class Login
     string Email {get;set;}
     string Pass {get;set;}
 
-    public void ValidationLogin()
+    public Login(string Email, string Pass)
+    {
+        this.Email = Email;
+        this.Pass = Pass;
+    }
+
+
+    public void ValidateLogin()
     {
         
     }
