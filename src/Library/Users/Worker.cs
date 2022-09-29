@@ -1,4 +1,4 @@
-using System; 
+using System;
 
 namespace Chatbot;
 
@@ -13,5 +13,37 @@ namespace Chatbot;
 
 public class Worker : User
 {
-    
+    int ID { get; }
+    string Name { get; set; }
+    string PhoneNumber { get; set; }
+    string Email { get; set; }
+    string Password { get; set; }
+    string Rating { get; set; }
+
+    public Worker(string name, string phoneNumber, string email, string passsword)
+    {
+        this.ID = 0;
+        this.Name = name;
+        this.PhoneNumber = phoneNumber;
+        this.Email = email;
+        this.Password = passsword;
+        this.Rating = 0;
+    }
+
+    public override void Login()
+    {
+
+    }
+    public override void ChangeUserData()
+    {
+
+    }
+    public override void DeleteUser(User user)
+    {
+
+    }
+    public override void CancelService(Service service)
+    {
+
+    }
 }
