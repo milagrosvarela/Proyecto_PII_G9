@@ -21,12 +21,10 @@ public abstract class User
 {
     int ID{get;}
     string Name{get;set;}
-    int PhoneNumber{get;set;}
+    string PhoneNumber{get;set;}
     string Email{get;set;}
     string Password{get;set;}
     Rating Rating{get;set;}
-
-
     public abstract void Login();
     public abstract void ChangeUserData();
     public abstract void DeleteUser(User user);

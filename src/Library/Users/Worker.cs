@@ -20,16 +20,16 @@ public class Worker : User
     string Password { get; set; }
     Rating Rating { get; set; }
 
-    public Worker(string name, string phoneNumber, string email, string passsword)
+    public Worker(string name, string phoneNumber, string email, string password)
     {
         this.ID = 0;
         this.Name = name;
         this.PhoneNumber = phoneNumber;
         this.Email = email;
-        this.Password = passsword;
-        this.Rating = null;
+        this.Password = password;
+        this.Rating = new Rating();
     }
-
+    public List<Service> Services= new List<Service>{};
     public override void Login()
     {
 

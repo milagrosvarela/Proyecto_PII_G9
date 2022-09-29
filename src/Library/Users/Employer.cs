@@ -13,26 +13,32 @@ namespace Chatbot;
 
 public class Employer : User
 {
-    public int Rate{get;set;}
-    public string SearchService{get;set;}
+    int ID{get;}
+    string Name{get;set;}
+    string PhoneNumber{get;set;}
+    string Email{get;set;}
+    string Password{get;set;}
+    Rating Rating{get;set;}
+
+    public Employer(string name, string phoneNumber, string email, string password)
+    {
+        this.ID = 0;
+        this.Name = name;
+        this.PhoneNumber = phoneNumber;
+        this.Email = email;
+        this.Password = password;
+        this.Rating = new Rating();
+    }
     public string ViewProfile(User user){return "";}
-    public int RateWorker(User user){return Rate;}
-    public override void CancelService(Service service){
-        
-    }
-    public void RateWorker(Rating rating){
-        
-    }
+    public int RateWorker(User user){return 0;}
+    public override void CancelService(Service service)
+    {}
+    public void SearchService(Service service){}
     public override void DeleteUser(User user)
-    {
-        
-    }
+    {}
     public override void ChangeUserData()
-    {
-        
-    }
+    {}
     public override void Login()
-    {
-        
-    }
+    {}
+    
 }
