@@ -4,22 +4,21 @@ namespace Chatbot;
 
 //           UML
 // ---------------------------
-// 
+// + GeneratedID: int
 // ---------------------------
 // + SaveData()
-// + ValidateData()
+// + ValidateData(Name,)
 // ---------------------------
 
 public class Register
 {
+    public int GeneratedID{get;set;}
     public void SaveData()
     {
         
     }
     public void ValidateData()
     {
-        Validation.ValidateName();
-        Validation.ValidateEmail();
-        Validation.ValidatePhoneNumber();
+
     }
 }
